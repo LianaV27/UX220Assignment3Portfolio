@@ -4,3 +4,10 @@ class YearElement extends HTMLElement{
     }
 }
 customElements.define("x-fullyear", YearElement);
+
+class ParagraphElement extends HTMLElement{
+    connectedCallback(){        
+        this.innerHTML  = `<p style="font-style: italic">${this.innerHTML}</p>`;
+    }
+}
+customElements.define("x-paragraph", ParagraphElement);

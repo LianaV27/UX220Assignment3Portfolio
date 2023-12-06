@@ -1,2 +1,4 @@
 ### About Me
-Hello, I'm Liana Valdez. I am a UX student at Laurier.
+<x-paragraph>More About Liana...</x-paragraph>
+<script src="customelement.js"></script>
+

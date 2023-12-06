@@ -10,14 +10,26 @@
     <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@500&family=Slabo+27px&display=swap" rel="stylesheet">
 
     <style>
+        .text-box {
+            max-width: 500px;
+            background: #ffffff;
+            margin-left: 100px;
+            padding: 25px;
+            border-style: dashed;
+        }
         :root {
-            --main-background: #FFC1CF;
+            --main-background: #000000;
             --main-foreground: #3E000C;
             --second-foreground: #7C0B2B;
             --second-background: #D4DCCD;
             }
-        h1, h2, h3 {
-        font-family: 'EB Garamond', serif;
+        h1 {
+            font-family: 'EB Garamond', serif; 
+            color: black;
+            }
+        h2 {
+            font-family: 'EB Garamond', serif; 
+            color: white;
             }
         body {
             background-color: var(--main-background);
@@ -41,7 +53,7 @@
 <body>
    <header>
         <nav class="navbar navbar-expand-md navbar-dark bg-dark">
-            <a class="navbar-brand" href="#"> Liana Valdez</a>
+            <a class="navbar-brand" href="#"></a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample04"
                 aria-controls="navbarsExample04" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -61,14 +73,26 @@
                 </ul>
             </div>
         </nav>
-    <h1>Liana Valdez: UX Designer</h1>
+    <h2><br>Liana Valdez: UX Designer</h2>
    </header>
 
    <main>
-        <x-markdown2html src="intro.md" id="intro"></x-markdown2html>
-        <x-markdown2html src="about.md" id="about"></x-markdown2html>
-        <x-markdown2html src="projects.md" id="projects"></x-markdown2html>
-        <x-markdown2html src="contact.md" id="contact"></x-markdown2html>
+        <br>
+        <div class="text-box">
+            <x-markdown2html src="intro.md" id="intro"></x-markdown2html>
+        </div>
+        <br>
+        <div class="text-box">
+            <x-markdown2html src="about.md" id="about"></x-markdown2html>
+        </div>
+        <br>
+        <div class="text-box">    
+            <x-markdown2html src="projects.md" id="projects"></x-markdown2html>
+        </div>
+        <br>
+        <div class="text-box">    
+            <x-markdown2html src="contact.md" id="contact"></x-markdown2html>
+        </div>
    </main>
 
     <footer>
