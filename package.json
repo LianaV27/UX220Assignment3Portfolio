@@ -1,0 +1,9 @@
+{
+  "devDependencies": {
+    "diy-pwa": "latest"
+  },
+  "scripts": {
+    "dev": "diy-pwa dev",
+    "start": "diy-pwa dev"
+  }
+}
