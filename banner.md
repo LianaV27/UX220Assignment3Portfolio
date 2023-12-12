@@ -1,2 +1,0 @@
-<a href="https://lh3.googleusercontent.com/pw/ADCreHc-QgoI4ZIf3_a388uTkb9nW3Hj-KK5HNah2wB80rXeiumso5PpMy5pbL0wvIu4WLT4gxOLNYLX2P8OeA10iFyiRAskxfZsCNnUCiVv_aDgD9xTiw=w2400?source=screenshot.guru"> <img src="https://lh3.googleusercontent.com/pw/ADCreHc-QgoI4ZIf3_a388uTkb9nW3Hj-KK5HNah2wB80rXeiumso5PpMy5pbL0wvIu4WLT4gxOLNYLX2P8OeA10iFyiRAskxfZsCNnUCiVv_aDgD9xTiw=w600-h315-p-k" alt="banner"/> </a>
-<h2> Liana Valdez: UX Designer </h2>
