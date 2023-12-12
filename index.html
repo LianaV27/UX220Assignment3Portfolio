@@ -46,6 +46,10 @@
         button {
             background-color: var(--second-background) !important;
             }
+        .banner {
+            height: 100%;
+            width: 100%;
+            }
     </style>
 </head>
 
@@ -62,21 +66,23 @@
             <div class="collapse navbar-collapse" id="navbarsExample04">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item">
-                        <a class="nav-link" href="#about">About</a>"
+                        <a class="nav-link" href="#about">About</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#projects">Projects</a>"
+                        <a class="nav-link" href="#projects">Projects</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#contact">Contact</a>"
+                        <a class="nav-link" href="#contact">Contact</a>
                     </li>
                 </ul>
             </div>
         </nav>
-    <h2><br>Liana Valdez: UX Designer</h2>
    </header>
 
    <main>
+        <div class="banner">
+            <x-markdown2html src="banner.md" id="banner"></x-markdown2html>
+        </div>
         <br>
         <div class="text-box">
             <x-markdown2html src="intro.md" id="intro"></x-markdown2html>
